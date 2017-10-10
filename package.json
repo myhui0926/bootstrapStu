@@ -1,0 +1,15 @@
+{
+  "name": "bootstrap_study",
+  "version": "1.0.0",
+  "description": "Study Bootstrap",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "sgd"
+  },
+  "author": "SongChaoHui",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0"
+  }
+}
