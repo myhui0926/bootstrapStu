@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Study Document 1</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <style>
+        .myclass{
+            height: 200px;
+            background-color: #cccccc;
+            margin-bottom: 10px;
+        }
+        .color2{
+            background-color: #1f6377;
+        }
+        .p_class{
+            height: 100px;
+            background-color:#0e90d2;
+        }
+        .c_class{
+            height:50px;
+            background-color: #eecc33
+        }
+    </style>
+</head>
+<body>
+<script src="../jquery-3.2.1.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+<h1>Hello,world!</h1>
+<h2>带有基本栅格的HTML代码</h2>
+<div class="row">
+    <div class="span4 myclass">span4</div>
+    <div class="span8 myclass">span8</div>
+</div>
+<div class="row">
+    <div class="span12 myclass color2">span12</div>
+</div>
+
+<h2>偏移列</h2>
+<div class="row">
+    <div class="span4 myclass">span4</div>
+    <div class="span3 offset2 myclass">span3 offset2</div>
+</div>
+
+<h2>嵌套列</h2>
+<div class="row">
+    <div class="span9 p_class">
+        Level 1 column
+        <div class="row">
+            <div class="span6 c_class">Level 2</div>
+            <div class="span3 c_class">Level 2</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
