@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>响应式设计</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap-responsive.min.css">
+    <style>
+        .myclass{
+            height: 200px;
+            background-color: #cccccc;
+            margin-bottom: 10px;
+        }
+        .color2{
+            background-color: #1f6377;
+        }
+        .p_class{
+            height: 100px;
+            background-color:#0e90d2;
+        }
+        .c_class{
+            height:50px;
+            background-color: #eecc33;
+            margin-bottom: 10px;
+            margin-top: 5px;
+        }
+        .cc_class{
+            height: 20px;
+            background-color: #ff0000;
+        }
+    </style>
+</head>
+<body>
+<script src="../jquery-3.2.1.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+<div class="visible-phone">Phone</div>
+<div class="visible-tablet">Tablet</div>
+<div class="visible-desktop">Desktop ll</div>
+
+<div class="hidden-phone">Hide Phone</div>
+<div class="hidden-tablet">Hide Tablet</div>
+<div class="hidden-desktop">Hide Desktop</div>
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span4 myclass">span4</div>
+        <div class="span8 myclass">span8
+        <div class="row-fluid">
+            <div class="span6 c_class">span6</div>
+            <div class="span6 c_class">span6</div>
+        </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
